@@ -1,0 +1,63 @@
+* Academic Website template
+This template is designed to provide an easy way to create academic 
+webpages. The goal is to separate content from form and to lower the 
+barrier for scientists to create their webpages.
+
+This way you can simply add your information and content and everything else
+is done for you. This template is heavily influenced
+by [[https://github.com/academicpages/academicpages.github.io][academicpages.github.io]] (structure and content) and [[https://github.com/wjhopper/academia][Academia]] (doable 
+in pelican).
+
+This blog is created with [[https://docs.getpelican.com/en/stable/][Pelican]] which uses [[https://www.python.org/][Python]]. The template was
+created so that it's easy to deyloy to [[https://pages.github.com/][Github Pages]], but you can make "simple"
+modifications to deploy it on other services (see the [[https://docs.getpelican.com/en/stable/][pelican documentation]]).
+
+* Building your website
+  1. Fork this Github repo
+  2. Clone this repo on your computer
+  3. Install the prerequisites
+     You will need to install pelican and the dependencies used to built 
+     your website. The easiest way is to install from the requirements file.
+
+     #+begin_src sh :exports code
+     pip install -r requirements.txt
+     #+end_src
+
+  4. Add your content
+  5. Build and preview your website
+  6. Deploy your website to Github
+
+* Modifying the website
+** Adding content
+** More modifications
+   If you wish to make any modifications to how the website looks or 
+   its structure, please read the [[https://docs.getpelican.com/en/stable/][pelican documentation]].
+
+* Contributing to this project
+  All contributions are welcome!
+
+  You can help out by writing documentation or tutorials on how to modify
+  certain things, report bugs or errors, fixing bugs or by providing ideas.
+
+  If you encounter any errors while building your website, please
+  read the pelican documentation to find out if it's something that
+  ocurred while adding your content, some issue with pelican itself,
+  or its related to how this project configures things.
+
+  Your are welcome to communicate any errors by submitting an
+  issue on Github.
+
+  To fix bugs, clone the repository, add your contribution, 
+  and submit a pull request.
+
+  If have suggestions on how to improve the website design (e.g., default
+  tabs, theme, etc.), please open an issue or email me.
+
+* Author
+  This project was developed by Mario E. Bermonti-Perez as part of
+  his academic research and activities. Feel free to contact me at [[mbermonti@psm.edu]] or
+  [[mbermonti1132@gmail.com]]
+
+* License
+  This project is licensed under the  GPL License. See the LICENSE.txt file for
+  details.
