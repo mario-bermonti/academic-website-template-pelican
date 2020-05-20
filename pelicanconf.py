@@ -20,18 +20,32 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
+####################
+# Blogroll         #
+####################
+# TODO: Add your links
+# To eliminate the ones you don't use, delete the whole line
+# To add new ones, copy/paste one and add the info
 LINKS = (
     ('Pelican', 'http://getpelican.com/'),
-    ('Python.org', 'http://python.org/'),
-    ('Jinja2', 'http://jinja.pocoo.org/'),
+    ('Python', 'http://python.org/'),
+    ('Github', 'https://github.com/'),
+    ('Open Science Framework', 'https://osf.io'),
     ('You can modify those links in your config file', '#'),
 )
 
-# Social widget
+####################
+# Social widget    #
+####################
+# TODO: Add links to your social networks
+# To eliminate the ones you don't use, delete the whole line
+# To add new ones, copy/paste one and add the info
 SOCIAL = (
-    ('You can add links in your config file', '#'),
-    ('Another social link', '#'),
+    ('ResearchGate', '#'),
+    ('LinkedIn', '#'),
+    ('ORCID', '#'),
+    ('Google Scholar', '#'),
+    ('You can modify those links in your config file', '#'),
 )
 
 DEFAULT_PAGINATION = 10
