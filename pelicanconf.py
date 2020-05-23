@@ -7,6 +7,7 @@ SITENAME = 'Academic Website'
 SITEURL = ''
 
 PATH = 'content'
+PAGE_ORDER_BY = 'order'
 
 # Add your time zone
 TIMEZONE = ''
