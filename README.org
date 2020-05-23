@@ -44,14 +44,14 @@ modifications to deploy it on other services (see the [[https://docs.getpelican.
   ocurred while adding your content, some issue with pelican itself,
   or its related to how this project configures things.
 
-  Your are welcome to communicate any errors by submitting an
-  issue on Github.
+  Your are welcome to communicate any errors by [[https://github.com/mario-bermonti/academic-website/issues][submitting an
+  issue]] on Github.
 
   To fix bugs, clone the repository, add your contribution, 
-  and submit a pull request.
+  and submit a [[https://github.com/mario-bermonti/academic-website/pulls][pull request]].
 
   If have suggestions on how to improve the website design (e.g., default
-  tabs, theme, etc.), please open an issue or email me.
+  tabs, theme, etc.), please open an [[https://github.com/mario-bermonti/academic-website/issues][issue on Github]] or [[mbermonti1132@gmail.com][email me]].
 
 * Author
   This project was developed by Mario E. Bermonti-Perez as part of
