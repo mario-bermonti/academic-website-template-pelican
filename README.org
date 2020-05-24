@@ -51,12 +51,12 @@ modifications to deploy it on other services (see the [[https://docs.getpelican.
   and submit a [[https://github.com/mario-bermonti/academic-website/pulls][pull request]].
 
   If have suggestions on how to improve the website design (e.g., default
-  tabs, theme, etc.), please open an [[https://github.com/mario-bermonti/academic-website/issues][issue on Github]] or [[mbermonti1132@gmail.com][email me]].
+  tabs, theme, etc.), please open an [[https://github.com/mario-bermonti/academic-website/issues][issue on Github]] or [[mailto:mbermonti1132@gmail.com][email me]].
 
 * Author
   This project was developed by Mario E. Bermonti-Perez as part of
-  his academic research and activities. Feel free to contact me at [[mbermonti@psm.edu]] or
-  [[mbermonti1132@gmail.com]]
+  his academic research and activities. Feel free to contact me at [[mailto:mbermonti@psm.edu][mbermonti@psm.edu]] or
+  [[mailto:mbermonti1132@gmail.com][mbermonti1132@gmail.com]]
 
 * License
   This project is licensed under the  GPL License. See the LICENSE.txt file for
