@@ -2,38 +2,34 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Academic Scholar'
-SITENAME = 'Academic Website'
-SITEURL = ''
+#######################################
+# Customize your info
+#######################################
 
-PATH = 'content'
-PAGE_ORDER_BY = 'order'
+# General settings
+AUTHOR = "Academic Scholar"
+SITENAME = "Academic Website"
+SITEURL = ""
+EMAIL = ""
+TIMEZONE = ""
+DEFAULT_LANG = "en"
 
-# Add your time zone
-TIMEZONE = ''
+# Appearance
+# Theme
+THEME = "themes/blueidea"
 
-DEFAULT_LANG = 'en'
-
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
-AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
-
-####################
-# Blogroll         #
-####################
-# TODO: Add your links
-# To eliminate the ones you don't use, delete the whole line
-# To add new ones, copy/paste one and add the info
-LINKS = (
-    ('Pelican', 'http://getpelican.com/'),
-    ('Python', 'http://python.org/'),
-    ('Github', 'https://github.com/'),
-    ('Open Science Framework', 'https://osf.io'),
-    ('You can modify those links in your config file', '#'),
-)
+# ####################
+# # Blogroll         #
+# ####################
+# # TODO: Add your links
+# # To activate, uncomment the links tuple
+# # To eliminate the ones you don't use, delete the whole line
+# # To add new ones, copy/paste one and add the info
+# LINKS = (
+#     ("Pelican", "http://getpelican.com/"),
+#     ("Python", "http://python.org/"),
+#     ("You can modify those links in your config file", "#"),
+# )
 
 ####################
 # Social widget    #
@@ -42,14 +38,29 @@ LINKS = (
 # To eliminate the ones you don't use, delete the whole line
 # To add new ones, copy/paste one and add the info
 SOCIAL = (
-    ('ResearchGate', '#'),
-    ('LinkedIn', '#'),
-    ('ORCID', '#'),
-    ('Google Scholar', '#'),
-    ('You can modify those links in your config file', '#'),
+    ("ResearchGate", "#"),
+    ("LinkedIn", "#"),
+    ("ORCID", "#"),
+    ("Google Scholar", "#"),
+    ("Github", "#"),
+    ("You can modify those links in your config file", "#"),
 )
+
+#################################################
+# Don't modify unless you know what you are doing
+#################################################
+
+PATH = "content"
+PAGE_ORDER_BY = "order"
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+
+# Feed generation is usually not desired when developing
+FEED_ALL_ATOM = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
