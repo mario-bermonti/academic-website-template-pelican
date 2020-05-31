@@ -6,3 +6,5 @@ Home
 :slug: home
 :summary: Home page
 :order: 1
+
+Welcome to my webpage!

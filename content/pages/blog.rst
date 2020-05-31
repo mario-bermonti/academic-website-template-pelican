@@ -6,3 +6,5 @@ Blog
 :slug: blog 
 :summary: Intro page for my blog 
 :order: 4
+
+This is the intro to my blog!
