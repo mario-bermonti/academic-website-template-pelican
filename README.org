@@ -23,15 +23,34 @@ modifications to deploy it on other services (see the [[https://docs.getpelican.
      pip install -r requirements.txt
      #+end_src
 
-  4. Add your content
+  4. Add your content (see below)
   5. Build and preview your website
+     These are [[https://docs.getpelican.com/en/3.6.3/publish.html][the instructions]] from the official pelican docs. I prefer 
+     the approach using Make, but you will need to install [[https://www.gnu.org/software/make/][Make]].
   6. Deploy your website to Github
+     These are [[https://docs.getpelican.com/en/3.6.3/tips.html#publishing-to-github][pelican official docs]] from the official pelican docs. I prefer 
+     using Make for this too.
 
 * Modifying the website
+** Adding your information
+   You need to modify the =pelicanconf.py= file for adding the information
+   about your website. Here you can add your name (author), the name
+   of your website, your links, and links to your social media.
 ** Adding content
-** More modifications
-   If you wish to make any modifications to how the website looks or 
-   its structure, please read the [[https://docs.getpelican.com/en/stable/][pelican documentation]].
+*** Add new pages
+     - To add new pages, just create new ones and add content.
+     - New pages are added to the menu-bar. You will need to add an 
+       =order= tag to specify the order of the page (see the 
+       existing pages for an example).
+*** Add content
+    Just write the content and appropriate metadata to the pages.
+** Changing the theme
+   All the available pelican themes have been added to the folder =themes=. If
+   you wish to change the theme of your site, just specify the name of the
+   theme that you want in the =pelicanconf.py=.
+** Further customization
+   Please read the [[https://docs.getpelican.com/en/stable/][pelican documentation]] for learning how to modify the
+   website's looks and structure.
 
 * Contributing to this project
   All contributions are welcome!
